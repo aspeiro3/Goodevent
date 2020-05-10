@@ -5,6 +5,17 @@
   <meta charset="UTF-8">
   <title>Хорошие шашлыки</title>
 
+  <style>
+    .container {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: auto;
+    }
+  </style>
+
   <link
       href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic'
       rel='stylesheet' type='text/css'>
@@ -21,36 +32,29 @@
 <body>
 
 <div class="container">
-  <h1>Go на шашлыки! )))</h1>
+  <h1 align="center">Go на шашлыки! )))</h1>
 
-  <div class="row">
-    <div class="six columns">
-      <h3>13 июня 15:00</h3>
+  <h3 align="center">13 июня 15:00</h3>
 
-      <p>
-        Собираемся у меня, а там посмотрим :)
-      </p>
+   <p align="center">
+    Собираемся у меня, а там посмотрим :)
+  </p>
 
-      <p>
-        <img src="bbq.jpg" alt="BBQ" class="u-max-full-width"/>
-      </p>
+  <p>
+    <img src="bbq.jpg" alt="BBQ" class="u-max-full-width" style="width: 100%;"/>
+  </p>
 
-      <p>
-        В планах: жарим мясо, пьем напитки, слушаем звуки, говорим слова :)
-      </p>
+   <p align="center">
+    В планах: жарим мясо, пьем напитки, слушаем звуки, говорим слова :)
+  </p>
 
-      <p>
-        <a href="https://forms.gle/pGtFMJbL4TfPJzPp8" class="button">Я пойду!</a>
-      </p>
-    </div>
+  <p align="center">
+    <a href="https://forms.gle/pGtFMJbL4TfPJzPp8" class="button">Я пойду!</a>
+  </p>
 
-    <div class="six columns">
-      <div id="map"
-           data-address="Польша, Гданьск, улица Шара 9"
-           style="width: 100%; height: 400px;">
-      </div>
-    </div>
-  </div>
+  <p id="map"
+  data-address="Польша, Гданьск, улица Шара 9"
+  style="width: 100%; height: 400px;"></p>
 </div>
 
 </body>
